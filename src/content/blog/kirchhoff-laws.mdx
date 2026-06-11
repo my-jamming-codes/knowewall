@@ -1,0 +1,61 @@
+---
+heroImage: 'https://loremflickr.com/1600/900/circuit,electronics'
+category: Init
+description: "A practical guide to Kirchhoff's Current Law and Voltage Law with quick examples."
+pubDate: 2026-06-11T12:00:00.000Z
+draft: false
+tags:
+  - Physics
+  - Circuit Analysis
+  - Kirchhoff
+title: "Kirchhoff's Laws: KCL and KVL Made Simple"
+---
+
+Kirchhoff's Laws are two core rules used to analyze electrical circuits.
+
+## 1) Kirchhoff's Current Law (KCL)
+
+At any node (junction), total current entering equals total current leaving.
+
+$$
+\sum I_{in} = \sum I_{out}
+$$
+
+### Quick Example
+
+If 5 A enters a node and one branch carries 2 A out, the other branch must carry 3 A out.
+
+$$
+5 = 2 + 3
+$$
+
+## 2) Kirchhoff's Voltage Law (KVL)
+
+Around any closed loop, the algebraic sum of voltages is zero.
+
+$$
+\sum V = 0
+$$
+
+### Quick Example
+
+For a loop with a 12 V source and two resistor drops of 7 V and $V_x$:
+
+$$
+12 - 7 - V_x = 0 \Rightarrow V_x = 5\text{ V}
+$$
+
+## How to Use KCL + KVL Together
+
+1. Label current directions and voltage polarities.
+2. Apply KCL at key nodes to relate branch currents.
+3. Apply KVL on independent loops to relate voltages.
+4. Solve the resulting equations.
+
+## Common Mistakes
+
+- Mixing current direction signs.
+- Forgetting that voltage rises and drops need consistent sign convention.
+- Writing dependent equations from the same loop/node multiple times.
+
+Kirchhoff's Laws are the foundation for nodal and mesh analysis, and once your sign conventions are consistent, circuit problems become much easier to solve.
